@@ -5,7 +5,11 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { useInView } from "@/hooks/use-in-view"
 
+<<<<<<< HEAD
 export function AboutUsSection() {
+=======
+export function AboutUsSection({ showButton = true }) {
+>>>>>>> master
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 })
 
   return (
@@ -20,9 +24,14 @@ export function AboutUsSection() {
           <Image
             src="/placeholder.svg?height=500&width=600"
             alt="Garden designer at work"
+<<<<<<< HEAD
             layout="fill"
             objectFit="cover"
             className="rounded-lg"
+=======
+            fill
+            className="rounded-lg object-cover"
+>>>>>>> master
           />
         </div>
         <div>
@@ -40,11 +49,21 @@ export function AboutUsSection() {
             Our approach integrates native flora, efficient water management, and thoughtful hardscape elements to
             deliver unique, low-maintenance, and environmentally responsible solutions.
           </p>
+<<<<<<< HEAD
           <Link href="/about" passHref>
             <Button className="bg-earth-brown-400 hover:bg-earth-brown-500 text-white px-8 py-3 rounded-full text-lg shadow-md transition-colors">
               Learn More About Us
             </Button>
           </Link>
+=======
+          {showButton && (
+            <Link href="/about" passHref>
+              <Button className="bg-earth-brown-400 hover:bg-earth-brown-500 text-white px-8 h-12 rounded-full text-lg shadow-md transition-colors font-semibold">
+                Learn More About Us
+              </Button>
+            </Link>
+          )}
+>>>>>>> master
         </div>
       </div>
     </section>

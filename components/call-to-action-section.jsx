@@ -20,7 +20,11 @@ export function CallToActionSection() {
           Let's discuss your vision and bring it to life with our innovative garden design solutions.
         </p>
         <Link href="/contact" passHref>
+<<<<<<< HEAD
           <Button className="bg-garden-green-500 hover:bg-garden-green-600 text-white px-10 py-4 rounded-full text-xl shadow-lg transition-colors">
+=======
+          <Button className="bg-garden-green-500 hover:bg-garden-green-600 text-white px-10 h-16 rounded-full text-xl shadow-lg transition-colors font-bold">
+>>>>>>> master
             Schedule a Consultation
           </Button>
         </Link>

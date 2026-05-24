@@ -89,14 +89,22 @@ export function HeroSection() {
         <p className="text-lg md:text-xl max-w-3xl mb-8 opacity-90">{currentSlideData.description}</p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link href="/portfolio" passHref>
+<<<<<<< HEAD
             <Button className="bg-garden-green-500 hover:bg-garden-green-600 text-white px-8 py-3 rounded-full text-lg shadow-lg transition-colors">
+=======
+            <Button className="bg-garden-green-500 hover:bg-garden-green-600 text-white px-8 h-14 rounded-full text-lg shadow-lg transition-colors font-semibold">
+>>>>>>> master
               View Our Portfolio
             </Button>
           </Link>
           <Link href="/contact" passHref>
             <Button
               variant="outline"
+<<<<<<< HEAD
               className="border-2 border-white text-white hover:bg-white hover:text-garden-green-700 px-8 py-3 rounded-full text-lg shadow-lg transition-colors bg-transparent"
+=======
+              className="border-2 border-white text-white hover:bg-white hover:text-garden-green-700 px-8 h-14 rounded-full text-lg shadow-lg transition-colors bg-transparent font-semibold"
+>>>>>>> master
             >
               Get a Free Consultation
             </Button>

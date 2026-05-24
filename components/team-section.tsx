@@ -36,9 +36,14 @@ export function TeamSection() {
                 <Image
                   src={member.src || "/placeholder.svg"}
                   alt={member.alt}
+<<<<<<< HEAD
                   layout="fill"
                   objectFit="cover"
                   className="transition-transform duration-300 group-hover:scale-105"
+=======
+                  fill
+                  className="transition-transform duration-300 group-hover:scale-105 object-cover"
+>>>>>>> master
                 />
                 <div className="absolute inset-0 bg-gardener-dark-green bg-opacity-0 group-hover:bg-opacity-70 transition-opacity duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                   <div className="flex gap-3">

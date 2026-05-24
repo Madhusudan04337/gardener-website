@@ -12,10 +12,16 @@ export function AboutSection() {
           <Image
             src="/placeholder.svg?height=500&width=600"
             alt="Person gardening"
+<<<<<<< HEAD
             layout="fill"
             objectFit="cover"
             quality={90}
             className="rounded-lg"
+=======
+            fill
+            quality={90}
+            className="rounded-lg object-cover"
+>>>>>>> master
           />
         </div>
         <div>
@@ -43,7 +49,11 @@ export function AboutSection() {
             </div>
           </div>
           <Link href="/about" passHref>
+<<<<<<< HEAD
             <Button className="bg-gardener-accent-green hover:bg-gardener-dark-green text-white px-8 py-3 rounded-full text-lg">
+=======
+            <Button className="bg-gardener-accent-green hover:bg-gardener-dark-green text-white px-8 h-12 rounded-full text-lg font-semibold">
+>>>>>>> master
               Explore More
             </Button>
           </Link>
