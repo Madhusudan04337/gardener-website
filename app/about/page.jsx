@@ -20,11 +20,8 @@ export default function AboutPage() {
         ]}
         backgroundImage="/placeholder.svg?height=400&width=1920"
       />
-<<<<<<< HEAD
-      <AboutUsSection /> {/* This section can be expanded with more content */}
-=======
       <AboutUsSection showButton={false} /> {/* This section can be expanded with more content */}
->>>>>>> master
+
       <WhyChooseUsSection /> {/* Reusing the reasons why clients choose you */}
       <TeamSection /> {/* Display your team members */}
       <TestimonialSection /> {/* Showcase client testimonials */}

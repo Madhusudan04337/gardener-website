@@ -65,12 +65,9 @@ const config = {
           800: "#2E7D32", // Darker green for accents
           900: "#1B5E20",
         },
-<<<<<<< HEAD
-=======
         "gardener-accent-green": "#4CAF50", // Same as garden-green-500
         "gardener-dark-green": "#2E7D32",   // Same as garden-green-800
         "gardener-text-gray": "#666666",
->>>>>>> master
         "earth-brown": {
           50: "#efebe9",
           100: "#d7ccc8",

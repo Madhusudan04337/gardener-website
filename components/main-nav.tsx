@@ -57,11 +57,8 @@ export function MainNav() {
         <Link href="/contact" className="text-gardener-dark-green hover:text-gardener-accent-green font-medium">
           Contact
         </Link>
-<<<<<<< HEAD
-        <Button className="bg-gardener-accent-green hover:bg-gardener-dark-green text-white px-6 py-2 rounded-full flex items-center gap-2">
-=======
         <Button className="bg-gardener-accent-green hover:bg-gardener-dark-green text-white px-8 h-11 rounded-full flex items-center gap-2 font-semibold">
->>>>>>> master
+
           Get A Quote
           <ArrowRight className="w-4 h-4" />
         </Button>

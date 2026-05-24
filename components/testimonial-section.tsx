@@ -37,14 +37,9 @@ export function TestimonialSection() {
               <Image
                 src={testimonials[0].image || "/placeholder.svg"}
                 alt={testimonials[0].name}
-<<<<<<< HEAD
-                layout="fill"
-                objectFit="cover"
-                className="rounded-full"
-=======
                 fill
                 className="rounded-full object-cover"
->>>>>>> master
+
               />
             </div>
             <h4 className="text-xl font-bold text-gardener-dark-green">{testimonials[0].name}</h4>

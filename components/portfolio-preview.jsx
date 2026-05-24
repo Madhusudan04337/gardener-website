@@ -63,11 +63,8 @@ export function PortfolioPreview() {
         </div>
         <div className="text-center mt-12">
           <Link href="/portfolio" passHref>
-<<<<<<< HEAD
-            <Button className="bg-garden-green-500 hover:bg-garden-green-600 text-white px-8 py-3 rounded-full text-lg shadow-md transition-colors">
-=======
             <Button className="bg-garden-green-500 hover:bg-garden-green-600 text-white px-10 h-14 rounded-full text-lg shadow-md transition-colors font-semibold">
->>>>>>> master
+
               Explore All Projects
             </Button>
           </Link>

@@ -7,16 +7,10 @@ export function PageHero({ title, breadcrumbs, backgroundImage = "/placeholder.s
       <Image
         src={backgroundImage || "/placeholder.svg"}
         alt="Background image of garden plants"
-<<<<<<< HEAD
-        layout="fill"
-        objectFit="cover"
-        quality={90}
-        className="z-0"
-=======
         fill
         quality={90}
         className="z-0 object-cover"
->>>>>>> master
+
       />
       <div className="absolute inset-0 bg-garden-green-800 bg-opacity-70 flex flex-col items-center justify-center text-white z-10">
         <h1 className="text-4xl md:text-5xl font-bold mb-2 text-center">{title}</h1>

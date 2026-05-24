@@ -56,11 +56,8 @@ export function QuoteFormSection() {
         <div className="md:col-span-2 text-center">
           <Button
             type="submit"
-<<<<<<< HEAD
-            className="bg-garden-green-600 hover:bg-garden-green-700 text-white px-8 py-3 rounded-full text-lg shadow-md transition-colors"
-=======
             className="bg-garden-green-600 hover:bg-garden-green-700 text-white px-10 h-14 rounded-full text-lg shadow-md transition-colors font-semibold min-w-[180px]"
->>>>>>> master
+
             disabled={isPending} // Disable button during submission
           >
             {isPending ? "Submitting..." : "Submit Now"}

@@ -24,11 +24,7 @@ export default function NotFound() {
           }
         </p>
         <Link href="/" passHref>
-<<<<<<< HEAD
-          <Button className="bg-gardener-accent-green hover:bg-gardener-dark-green text-white px-8 py-3 rounded-full text-lg">
-=======
           <Button className="bg-gardener-accent-green hover:bg-gardener-dark-green text-white px-8 h-12 rounded-full text-lg font-semibold">
->>>>>>> master
             Go Back To Home
           </Button>
         </Link>
